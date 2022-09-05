@@ -21,7 +21,7 @@ var queue = new MessageQueue(@"FormatName:DIRECT=TCP:172.10.10.1\private$\chatbo
 ### Decision Tree
 Implement the partition that occurs at the rootnode<br>
 ID3 (Iterative Dichotomiser 3) is an algorithm invented by Ross Quinlan used to generate a decision tree from a dataset.<br>
-<img src="https://github.com/jui-pung/MachineLearningRelatedAlgorithms/blob/8d7bedd2197b5f5986328ef29921c06db5e67a62/allelectronics%20customer%20database.png" width="400"/>
+<img src="https://github.com/jui-pung/MSMQ_Outgoing-Queues/blob/a8da29c61a45e8bad451e6d5402d9d6ce9d7969d/03.png" width="400"/>
 
 ### HMM
 Problem :<br>
