@@ -12,19 +12,10 @@ var queue = new MessageQueue(@"FormatName:DIRECT=TCP:172.10.10.1\private$\chatbo
 ### 接收方 佇列設定
 - 訊息佇列(右鍵) > 內容 > 伺服器安全性 > 取消勾選(停用未驗證的RPC呼叫)
 - 接收方私有佇列名稱(右鍵) > 內容 > 安全性 > ANONYMOUS LOGON(沒有的話須新增) > 勾選(完全控制) 
+<img src="https://github.com/jui-pung/MSMQ_Outgoing-Queues/blob/7be83c630b6a98ac8ffe3bd04cf4c2bb134fe3ac/02.png" width="400"/>
+<img src="https://github.com/jui-pung/MSMQ_Outgoing-Queues/blob/7be83c630b6a98ac8ffe3bd04cf4c2bb134fe3ac/01.png" width="400"/>
 
 ### 防火牆 設定
 加入TCP:1801規則
 - 控制台(小圖示) > 防火牆 > 進階設定 > 輸入規則(右鍵) > 新增規則 > 連接埠 > TCP:1801
-
-
-### Decision Tree
-Implement the partition that occurs at the rootnode<br>
-ID3 (Iterative Dichotomiser 3) is an algorithm invented by Ross Quinlan used to generate a decision tree from a dataset.<br>
 <img src="https://github.com/jui-pung/MSMQ_Outgoing-Queues/blob/a8da29c61a45e8bad451e6d5402d9d6ce9d7969d/03.png" width="400"/>
-
-### HMM
-Problem :<br>
-<img src="https://github.com/jui-pung/MachineLearningRelatedAlgorithms/blob/9b40bc0cd943e2de0c73f330da10442e592c1691/Hidden%20Markov%20Model%20Problem.png" width="400"/>
-
-[Description file](https://github.com/jui-pung/MachineLearningRelatedAlgorithms/blob/b37c5f4a351c03b5ceef5289b75a3dae9fa05876/HMM_java/Hidden%20Markov%20Model.pdf)
